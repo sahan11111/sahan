@@ -39,8 +39,7 @@ def delete_todo(todos):
 
 def display_todos(todos):
     for i, todo in enumerate(todos, start=1):
-        print(f"{i}. {todo['title']} : {todo['description']} :
-              {todo['status']}")
+        print(f"{i}. {todo['title']} : {todo['description']} : {todo['status']}")
 
 def main():
     todos = load_todos()
